@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	background-color: #f1f1f1;
+}
+header{
+	background-color: green;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	font-family: "Comic Sans ms", Arial
+}
+nav{
+	overflow:hidden;
+	background-color: #333;
+}
+nav a{
+	float: left;
+	color: #fff;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color: black;
+	color:white;
+}
+.column{
+	float: left;
+	padding: 10px;
+}
+.column.side{
+	width: 20%;
+}
+.column.middle{
+	width: 50%;
+}
+
+footer{
+	clear: both;
+	background-color: green;
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
+@media screen and(max-width: 617px){
+	.column.side,.column.middle{
+		width: 100px;
+	}
+	/*This is paragraph*/
+	
+p{
+	text-align: justify;
+}
